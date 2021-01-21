@@ -11,6 +11,8 @@ jobs:
       run:  cd DotnetTemplate.Web
     - name: builds code
       run:  dotnet build
+    - name: build typescript
+      run: npm run build
     - name: navigate out
       run: cd ../
     - name: navigate to test folder
