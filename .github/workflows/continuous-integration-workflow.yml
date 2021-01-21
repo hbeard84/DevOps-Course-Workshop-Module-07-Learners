@@ -25,5 +25,9 @@ jobs:
     - name: run the tests
       run:  dotnet test
       working-directory: DotnetTemplate.Web.Tests
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       
       
