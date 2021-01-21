@@ -6,4 +6,4 @@ Before the workshop you should complete all the set-up instructions in [before_y
 
 During workshop 7 you'll be following the instructions in [during_workshop_7.md](./during_workshop_7.md).
 
-![continuous-integration-workflow.yml](https://github.com/hbeard84/DevOps-Course-Workshop-Module-07-Learners/workflows/continuous-integration-workflow.yml/badge.svg)
+![Continuous Integration](https://github.com/hbeard84/DevOps-Course-Workshop-Module-07-Learners/workflows/Continuous%20Integration/badge.svg)
