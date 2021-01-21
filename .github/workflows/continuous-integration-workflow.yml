@@ -11,13 +11,15 @@ jobs:
       run:  cd DotnetTemplate.Web
     - name: builds code
       run:  dotnet build
+    - name: install typescript
+      run:  npm install
     - name: build typescript
-      run: npm run build
+      run:  npm run build
     - name: navigate out
-      run: cd ../
+      run:  cd ../
     - name: navigate to test folder
-      run: cd DotnetTemplate.Web.Tests
+      run:  cd DotnetTemplate.Web.Tests
     - name: run the tests
-      run: dotnet test
+      run:  dotnet test
       
       
