@@ -6,4 +6,5 @@ RUN apt-get update \
   && apt-get install nodejs -yq  
 RUN dotnet build 
 RUN cd DotnetTemplate.Web && npm i && npm t && npm run lint
+WORKDIR DotnetTemplate.Web
 ENTRYPOINT dotnet run
