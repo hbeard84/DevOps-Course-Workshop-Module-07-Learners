@@ -28,6 +28,6 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
         name: hbeard84/dotnettemplate
-        username: ${{ secrets.DOCKER_HUB_USER }}
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
         tags: "${{ github.sha}} , ${{ github.ref }}"
