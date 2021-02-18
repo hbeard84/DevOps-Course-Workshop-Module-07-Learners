@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main                    # Will make the workflow run every time you push to any branch
-      - hbeard84-exercise-7/actions
+      - hbeard84-exercise-7
 jobs:
   build-test:
     name: Build and test
