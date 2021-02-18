@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk 
+FROM mcr.microsoft.com/dotnet/core/sdk
 COPY . . 
 RUN apt-get update \      
   && apt-get install curl gnupg -yq \      
