@@ -30,4 +30,4 @@ jobs:
         name: hbeard84/dotnettemplate
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
-        tags: "${{ github.sha }}"
+        tags: "${{ github.sha }},latest"
