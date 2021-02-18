@@ -31,21 +31,3 @@ jobs:
         username: ${{ secrets.DOCKER_HUB_USER }}
         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
         tags: "mytag , ${{ env.GITHUB_SHA }} , ${{ env.GITHUB_REF }}"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
